@@ -89,7 +89,7 @@ const AccountDetails = () => {
             placeholder="Medusa Store"
           />
           <h6 className="mt-2xlarge inter-base-semibold">Advanced settings</h6>
-          <Input
+          {/* <Input
             className="mt-base"
             label="Swap link template"
             {...register("swap_link_template")}
@@ -100,12 +100,12 @@ const AccountDetails = () => {
             label="Draft order link template"
             {...register("payment_link_template")}
             placeholder="https://acme.inc/payment={payment_id}"
-          />
+          /> */}
           <Input
             className="mt-base"
             label="Invite link template"
             {...register("invite_link_template")}
-            placeholder="https://acme-admin.inc/invite?token={invite_token}"
+            placeholder="https://admin.taylortrinque.com/invite?token={invite_token}"
           />
         </BodyCard>
       </div>
